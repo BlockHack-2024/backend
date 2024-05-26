@@ -1,7 +1,7 @@
 Steps to run server
 
 1. Clone the repository
-2. Install dependencies using `pip install -r requirements.txt`
+2. Create conda virtual env using `conda create --name <env> --file requirements.txt`
 3. Setup MySQL Workbench locally, create a schema(db) called blockhacks2024
 4. Start the server using `python app.py`
 5. Use `http://localhost:5000` as base URL to access the API
